@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #21f106;
+    background-color: #ffffff;
+}
+.form{
+    border-radius: 20px;
+    width: 400px;
+    height: 680px;
+    padding: 60px 35px 35px 35px ;
+    background-color:#ffffff;
+    box-shadow: 13px 13px 20px #9ea3a8,
+    -13px -13px 20px #887f7f;
+}
+.logo{
+    background: url(logo.jpg);
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     margin: 0 auto;
+     box-shadow: 0px 0px 2px #555,
+     0px 0px 0px 5px #ecf8f3,
+     8px 8px 15px #a7adaf,
+     -8px -8px 15px #fff;
+   
+}
+.hd{
+    text-align: center;
+    padding-top: 22px;
+    font-size: 16px;
+    letter-spacing: -2px;
+}
+.hd-2{
+    text-align: center;
+    letter-spacing: -2px;
+    
+}
+.data{
+    width: 100%;
+    padding: 60px 5px 5px 5px ;
+}
+.data .input{
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+
+}
+.username,
+.password{
+    border-radius: 4px;
+    margin-bottom: 28px;
+    box-shadow: inset 4px 4px 6px #000000, inset -4px -4px 6px #fff;
+}
+.data svg{
+    margin: 0 10px -4px 24px;
+}
+.sign-up{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    background-color: #0f4444;
+    box-shadow: 4px 4px 8px #b1b1b1, -4px -4px 8px #fff;
+    transition: all 0.5s;
+}
+.sign-up:hover{
+    background-color: #3aa3b6;
+}
+.sign-up:active{
+    color: #88ef9e;
+}
+.link{
+    padding-top: 18px;
+    text-align: center;
+}
+.link a{
+    color: #f0e4e4;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    
+}
+.sign{
+     outline: none;
+     border: none;
+     cursor: pointer;
+     width: 50%;
+     height: 60px;
+     border-radius: 12px;
+     font-size: 1.5em;
+     text-align: center;
+     color: #ffffff;
+     background-color: #4ccfcf;
+     box-shadow: 4px 4px 8px #b1b1b1,
+     -4px -4px 8px #fff;
+     transition: all 0.5s;
+     
+}
+.sign:hover {
+    background-color: #1c2324;
+}
+
+.sign:active {
+    color: #88ef9e;
+}
+.pass {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 1em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4ccfcf;
+    box-shadow: 4px 4px 8px #b1b1b1,
+        -4px -4px 8px #fff;
+    transition: all 0.5s;
+
+}
+
+.pass:hover {
+    background-color: #1c2324;
+}
+
+.pass:active {
+    color: #88ef9e;
